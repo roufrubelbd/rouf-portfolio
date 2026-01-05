@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import Lenis from "lenis";
 import Image from "next/image";
 import Link from "next/link";
+import { GoDownload } from "react-icons/go";
 
 export default function Hero() {
   useEffect(() => {
@@ -85,7 +86,7 @@ export default function Hero() {
                   download
                   className="btn btn-primary hover:bg-emerald-700"
                 >
-                  Download Resume
+                  <GoDownload className="mr-1" />Download Resume
                 </a>
                 <Link
                   href="/contact"
