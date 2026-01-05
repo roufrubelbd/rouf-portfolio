@@ -1,19 +1,14 @@
-import AboutPage from "@/components/About";
-import ContactPage from "@/components/Contact";
-import Education from "@/components/Education";
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import ProjectsPage from "@/components/Projects";
-import SkillsPage from "@/components/Skills";
 import TechnologiesPage from "@/components/Technologies";
-// import Image from "next/image";
+import AboutPage from "./about/page";
+import ContactPage from "./contact/page";
+import SkillsPage from "./skills/page";
+import Education from "./education/page";
+import ProjectsPage from "./projects/page";
 
 export default function Home() {
   return (
     <div className="">
-      {/* <button className="btn btn-primary">test button</button> */}
-      {/* <Navbar /> */}
       <Hero />
       <AboutPage />
       <TechnologiesPage />
@@ -21,7 +16,6 @@ export default function Home() {
       <Education />
       <ProjectsPage />
       <ContactPage />
-      {/* <Footer /> */}
     </div>
   );
 }

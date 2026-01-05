@@ -80,7 +80,7 @@ export default function Hero() {
               className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8"
             >
               <div className="mt-6 flex gap-3">
-                <a href="/resume.pdf" download className="btn btn-primary">
+                <a href="/resume.pdf" download className="btn btn-primary hover:bg-emerald-700">
                   Download Resume
                 </a>
                 <Link
@@ -169,4 +169,3 @@ export default function Hero() {
     </section>
   );
 }
-
