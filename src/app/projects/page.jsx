@@ -177,7 +177,7 @@ export default function ProjectsPage() {
                     title="Live Site"
                   >
                     <div className="flex justify-center items-center gap-1">
-                      <FaExternalLinkAlt size={18} /> Website Live Link
+                      <FaExternalLinkAlt size={18} /> Website
                      </div>
                   </a>
                 )}
@@ -189,7 +189,7 @@ export default function ProjectsPage() {
                     title="Frontend GitHub"
                   >
                      <div className="flex justify-center items-center gap-1">
-                      <FaGithub size={18} /> Frontend Code
+                      <FaGithub size={18} /> Frontend
                      </div>
                   </a>
                 )}
@@ -201,7 +201,7 @@ export default function ProjectsPage() {
                     title="Backend GitHub"
                   >
                    <div className="flex justify-center items-center gap-1">
-                      <FaGithub size={18} /> Backend Code
+                      <FaGithub size={18} /> Backend
                      </div> 
                     
                   </a>

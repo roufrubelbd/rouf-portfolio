@@ -29,7 +29,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white py-24">
       <div className="max-w-5xl mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* LEFT CONTENT */}
@@ -80,7 +80,11 @@ export default function Hero() {
               className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8"
             >
               <div className="mt-6 flex gap-3">
-                <a href="/resume.pdf" download className="btn btn-primary hover:bg-emerald-700">
+                <a
+                  href="/resume.pdf"
+                  download
+                  className="btn btn-primary hover:bg-emerald-700"
+                >
                   Download Resume
                 </a>
                 <Link
